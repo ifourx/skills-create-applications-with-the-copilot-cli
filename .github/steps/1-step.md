@@ -26,7 +26,7 @@ GitHub Copilot CLI is a **standalone terminal application** that brings the powe
   - The session duration
   - The total lines of code edited
   - A breakdown of token usage per model
-- `/share [file|gist] [path]` - Share session to markdown file or GitHub gist
+- `/share [file|gist] [path]` - Share session to Markdown file or GitHub gist
 - Creating **custom agents** to encode specialized prompts and workflows
 - Delegating tasks to **Copilot coding agent** using the `/delegate` command
 
@@ -48,7 +48,7 @@ To install Copilot CLI, you need:
 
 - Node.js version 22 or later
 - npm version 10 or later
-- An active GitHub Copilot subscription (Pro, Pro+, Business, or Enterprise)
+- An active GitHub Copilot subscription (Free, Pro, Pro+, Business, or Enterprise)
 
 #### Issue Templates
 
@@ -66,7 +66,7 @@ Issue templates help maintain consistency when team members create issues. This 
 
 > [!IMPORTANT]
 > If you have restarted your codespace you may need to run `copilot --allow-all` and then authenticate with GitHub again by running `!gh auth login` in your terminal,
-> or use `!gh auth login` from within the Copilot CLI session.
+> or use `/login` from within the Copilot CLI session.
 
 ### :keyboard: Activity 1: Getting to know your development environment
 
@@ -137,7 +137,7 @@ Issue templates help maintain consistency when team members create issues. This 
    > ```
 
 > [!NOTE]
-> After running `!gh auth login`, you will be provided with a link and an authentication code. Click the link to open GitHub in your browser, then enter the code to complete the authentication process.
+> After running `/login`, you will be provided with a link and an authentication code. Click the link to open GitHub in your browser, then enter the code to complete the authentication process.
 
 3. Explore useful slash commands in Copilot CLI:
    - View your current session information:
@@ -209,7 +209,7 @@ Issue templates help maintain consistency when team members create issues. This 
 - Make sure you have Node.js 22+ installed: `node --version`
 - If npm install fails, try: `sudo npm install -g @github/copilot`
 - Make sure you have GitHub Copilot access enabled for your account
-- If authentication fails, run `copilot` and run `!gh auth login`
+- If authentication fails, run `copilot` and run `/login`
 - You can also create the issue through the GitHub UI if needed
 
 </details>
