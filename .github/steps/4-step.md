@@ -79,7 +79,7 @@ The Copilot CLI enables you to:
    > "Add more operations" issues so they close automatically when merged.
    > ```
 
-1. Merge the pull request after Copilot's review is complete:
+4. Merge the pull request after Copilot's review is complete:
 
    > ![Static Badge](https://img.shields.io/badge/CLI-Prompt-text?style=flat-square&logo=github-copilot&labelColor=8250df&color=fbefff)
    >
@@ -92,7 +92,7 @@ The Copilot CLI enables you to:
 > GitHub automatically closes those issues. The squash merge option keeps your
 > main branch history clean.
 
-4. Verify that both issues are now closed:
+5. Verify that both issues are now closed:
 
    > ![Static Badge](https://img.shields.io/badge/CLI-Prompt-text?style=flat-square&logo=github-copilot&labelColor=8250df&color=fbefff)
    >
@@ -101,7 +101,7 @@ The Copilot CLI enables you to:
    > and "Add more operations" issues are now closed.
    > ```
 
-5. Wait a moment for Mona to check your work, provide feedback, and share the next lesson.
+6. Wait a moment for Mona to check your work, provide feedback, and share the next lesson.
 
 > [!TIP]
 > Use `/share gist` in your Copilot CLI session to save your GitHub Skills exercise session
